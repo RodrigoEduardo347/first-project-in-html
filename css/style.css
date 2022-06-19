@@ -28,6 +28,13 @@ body {
     text-transform: uppercase;
 }
 
+.banner-content p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
 .navegation-list{
     display: inline-block;
     border: 1px solid white;
@@ -58,6 +65,34 @@ main{
     background-color: white;
     margin-top:15px;
     padding:15px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.card{
+    float: left;
+    width: 32%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+.img-one{
+    margin-left:1%;
+}
+
+.img-one, .img-two{
+    margin-right:1%;
+}
+
+.card p{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0;
 }
 
 .text header{
